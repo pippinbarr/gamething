@@ -1,17 +1,69 @@
-@import "{{ site.theme }}";
+@import "font.css";
+
+:root {
+  --bg: #ffff77;
+  --fg: #222222;
+}
 
 body {
-  background-color: yellow;
-  color: black;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 2rem;
-  font-style: italic;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: Atkinson, sans-serif;
+  font-size: 1.5rem;
 }
 
 #container {
+  margin: 0 auto;
+  margin-top: 12rem;
+  max-width: 800px;
+}
+
+.header {
+  position: fixed;
+  font-size: 4rem;
+  font-style: italic;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background-color: var(--fg);
+  color: var(--bg);
+}
+
+#header1 {
+  top: 1rem;
+  left: -2rem;
+}
+
+#header2 {
+  top: 6rem;
+  left: -20.14rem;
+}
+
+#explainer {
+  margin-top: 10rem;
+}
+
+#subscribe {
+  margin-top: 2rem;
+}
+
+#latest-episode {
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+a, a:hover, a:visited {
+  color: var(--fg);
+}
+
+#host-info {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#host, img {
+  max-width: 350px;
 }
