@@ -44,7 +44,9 @@ body {
 
 #subscribe {
   margin-top: 2rem;
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .badge {
