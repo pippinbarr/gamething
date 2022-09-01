@@ -44,6 +44,11 @@ body {
 
 #subscribe {
   margin-top: 2rem;
+  text-align: center;
+}
+
+.badge {
+  height: 40px;
 }
 
 #latest-episode {
