@@ -14,7 +14,7 @@ body {
 
 #container {
   margin: 0 auto;
-  margin-top: 12rem;
+  margin-top: 14rem;
   max-width: 800px;
 }
 
@@ -46,11 +46,8 @@ body {
   margin-top: 2rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.badge {
-  height: 40px;
+  justify-content: space-evenly;
+  row-gap: 1rem;
 }
 
 #latest-episode {
@@ -71,6 +68,20 @@ a, a:hover, a:visited {
   justify-content: space-around;
 }
 
-#host, img {
-  max-width: 350px;
+.host {
+  width: 350px;
+}
+
+.host-image {
+  width: 350px;
+  height: auto;
+}
+
+.badge {
+  height: 48px;
+}
+
+.badge img {
+  height: 100%;
+  width: auto;
 }
