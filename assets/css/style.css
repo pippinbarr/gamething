@@ -10,36 +10,50 @@ body {
   color: var(--fg);
   font-family: Atkinson, sans-serif;
   font-size: 1.5rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  /* padding: 0rem 1rem 1rem 1rem; */
 }
 
 #container {
   margin: 0 auto;
-  margin-top: 14rem;
-  max-width: 800px;
+  padding: 0rem 1rem 1rem 1rem;
+  margin-top: 13rem;
+  max-width: 60rem;
 }
 
-.header {
+p, li {
+  line-height: 1.25em;
+}
+
+#title-container {
+  margin-top: 0;
+  padding-top: 0;
   position: fixed;
-  font-size: 4rem;
-  font-style: italic;
+  top: 0;
+  left: 0;
+}
+
+.title {
   overflow-x: hidden;
   white-space: nowrap;
   background-color: var(--fg);
   color: var(--bg);
+  font-size: 4rem;
+  font-style: italic;
+  margin-top: 0.5rem;
 }
 
-#header1 {
-  top: 1rem;
-  left: -2rem;
+#title1 {
+  margin-left: -2rem;
 }
 
-#header2 {
-  top: 6rem;
-  left: -20.14rem;
+#title2 {
+  margin-left: -20rem;
 }
 
 #explainer {
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 #subscribe {
@@ -62,19 +76,19 @@ a, a:hover, a:visited {
   color: var(--fg);
 }
 
-#host-info {
+#hosts {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  width: 100%;
 }
 
 .host {
-  width: 350px;
+  flex: 0 1 45%;
 }
 
-.host-image {
-  width: 350px;
-  height: auto;
+.host img {
+
 }
 
 .badge {
