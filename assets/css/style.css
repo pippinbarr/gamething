@@ -79,16 +79,17 @@ a, a:hover, a:visited {
 #hosts {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  gap: 3.5rem;
   width: 100%;
 }
 
 .host {
-  flex: 0 1 45%;
+  flex: 1 1 45%;
 }
 
 .host img {
-
+  width: 100%
 }
 
 .badge {
