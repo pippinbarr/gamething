@@ -68,6 +68,12 @@ p, li {
   margin-top: 2rem;
 }
 
+#player {
+  border: .1em dashed black;
+  padding: .25em;
+  /* background-color: black; */
+}
+
 h2 {
   font-size: 1em;
 }
