@@ -57,11 +57,14 @@ p, li {
 }
 
 #subscribe {
+  width: 100%;
   margin-top: 2rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  row-gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 #latest-episode {
