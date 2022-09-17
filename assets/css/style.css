@@ -52,8 +52,22 @@ p, li {
   margin-left: -20rem;
 }
 
-#explainer {
-  margin-top: 13rem;
+#menu {
+  margin-left: 0rem;
+  font-size: 2rem;
+  width: 100vw;
+  text-align: center;
+  font-weight: normal;
+  white-space: normal;
+  padding: 0.5rem;
+}
+
+#menu a {
+  color: var(--bg);
+}
+
+#about {
+  margin-top: 16rem;
 }
 
 #subscribe {
@@ -67,7 +81,7 @@ p, li {
   gap: 2rem;
 }
 
-#latest-episode {
+#latest-season {
   margin-top: 2rem;
 }
 
@@ -97,7 +111,7 @@ a, a:hover, a:visited {
   flex: 1 1 45%;
 }
 
-.host img {
+img {
   width: 100%
 }
 
