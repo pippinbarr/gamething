@@ -66,8 +66,14 @@ p, li {
   color: var(--bg);
 }
 
+section {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px dashed black;
+}
+
 #about {
-  margin-top: 16rem;
+  margin-top: 14rem;
 }
 
 #subscribe {
@@ -86,8 +92,8 @@ p, li {
 }
 
 #player {
-  border: .1em dashed black;
-  padding: .25em;
+  /* border: .1em dashed black; */
+  /* padding: .25em; */
   /* background-color: black; */
 }
 
@@ -103,7 +109,7 @@ a, a:hover, a:visited {
   display: flex;
   flex-flow: row wrap;
   /* justify-content: space-around; */
-  gap: 3.5rem;
+  column-gap: 3.5rem;
   width: 100%;
 }
 
@@ -122,4 +128,10 @@ img {
 .badge img {
   height: 100%;
   width: auto;
+}
+
+footer {
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  cursor: help;
 }

@@ -1,5 +1,6 @@
 let promo = new Audio(`assets/audio/now-thats-a-gamething.mp3`);
 
-document.addEventListener(`click`, () => {
-  promo.play();
-});
+document.getElementById(`footer`)
+  .addEventListener(`click`, () => {
+    promo.play();
+  });
