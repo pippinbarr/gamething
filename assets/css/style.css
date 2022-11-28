@@ -22,7 +22,8 @@ body {
   max-width: 60rem;
 }
 
-p, li {
+p,
+li {
   line-height: 1.25em;
 }
 
@@ -91,6 +92,26 @@ section {
   margin-top: 2rem;
 }
 
+#banner {
+  position: relative;
+  z-index: -100;
+}
+
+#banner>div {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+#banner>div>div {
+  margin-bottom: 1vw;
+  font-size: 4vw;
+  color: var(--bg);
+  background-color: black;
+  font-style: italic;
+  line-height: 1.2;
+}
+
 #player {
   /* border: .1em dashed black; */
   /* padding: .25em; */
@@ -101,7 +122,9 @@ h2 {
   font-size: 1em;
 }
 
-a, a:hover, a:visited {
+a,
+a:hover,
+a:visited {
   color: var(--fg);
 }
 
