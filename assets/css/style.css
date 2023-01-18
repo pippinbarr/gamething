@@ -158,3 +158,11 @@ footer {
   text-decoration: underline;
   cursor: help;
 }
+
+#lost-seasons-tooltip {
+  text-decoration: underline;
+}
+
+#lost-seasons {
+  display: none;
+}
