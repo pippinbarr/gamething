@@ -166,3 +166,18 @@ footer {
 #lost-seasons {
   display: none;
 }
+
+#past_seasons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 1em;
+}
+
+.season {
+  /* background-color: green; */
+  /* border: 1px solid black; */
+}
