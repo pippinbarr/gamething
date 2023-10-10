@@ -103,7 +103,7 @@
       </div>
 
       <p>
-        <a href="archive">Click here to view the full archive</a>
+        <a href="archive">Press 2 to access the complete archives</a>
       </p>
 
     </section>
@@ -180,6 +180,15 @@
   </div>
 
   <script src="js/script.js"></script>
+
+  <script>
+    document.addEventListener('keypress', function (e) {
+      if (e.key === '2') {
+        console.log('hi')
+        window.location.href = 'archive';
+      }
+    })
+  </script>
 
 </body>
 
