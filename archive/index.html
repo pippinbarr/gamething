@@ -14,6 +14,10 @@
 
   <h1>GAMETHING Archive</h1>
 
+  <p>
+    <a href="archive">Press 1 to return to the main menu</a>
+  </p>
+
   <section>
     <h2>Season 3: Simulators</h2>
     <iframe title="GAMETHING" allowtransparency="true" height="600" width="100%"
@@ -46,6 +50,12 @@
       loading="lazy" allowfullscreen=""></iframe>
   </section>
 
+  <section>
+    <h2>Season 7: noclip</h2>
+
+
+  </section>
+
   <footer id="footer">
     Now <em>that's</em> a <em>GAMETHING</em>.
   </footer>
@@ -53,7 +63,13 @@
 
   <script src="../js/script.js"></script>
 
-
+  <script>
+    document.addEventListener('keypress', function (e) {
+      if (e.key === '1') {
+        window.location.href = '/';
+      }
+    })
+  </script>
 
 </body>
 
